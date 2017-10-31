@@ -1,0 +1,338 @@
+body {
+	padding: 0px;
+	margin:0;
+  color: black;
+  font-family: Ariel;
+  width:100%;
+  height: 1480px;
+
+}
+
+.blogform {
+	max-width: 720px;
+	min-height: 200px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	background: #FCFCFC;
+	border: 1px solid #DDD;
+	color: black;
+	border-radius: 4px;
+}
+
+.add {
+	text-align: center;
+}
+
+input{
+	width: 400px;
+	height: 40px;
+	display: block;
+	margin: 0 auto 5px;
+}
+
+
+textarea {
+    width: 600px;
+    height: 150px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+button {
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.blog {
+	max-width: 720px;
+	min-height: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	background: #FCFCFC;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+}
+footer {
+  height: 30px;
+  width:100%;
+	background: black;
+  position: absolute;
+  text-align: center;
+
+}
+
+
+
+h1 {
+	color: black;
+	margin:0 0 10px;
+	padding-top: 10px;
+	font:normal 17px Georgia, serif;
+}
+
+
+p {
+	margin:0;
+	padding:0;
+}
+
+#wrapper{
+  width: 100%;
+  height: 50px;
+	position: fixed;
+
+}
+
+#logo{
+  float: left;
+
+}
+#logo h1{
+  color: white;
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-style: italic;
+}
+
+#nav{
+	width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 40px;
+  background: #110128;
+  opacity: 0.8;
+}
+
+
+
+#nav ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  float: right;
+  line-height: 20px;
+}
+#nav ul li{
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+}
+
+#nav ul li a{
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  text-decoration: none;
+  display: block;
+}
+
+#nav  ul li:hover{
+  background-color: #7f85ab;
+  transition:all 0.40s;
+}
+#nav  ul li:hover ul{
+display: block;
+}
+#nav ul li ul{
+  display: none;
+
+}
+#nav ul li ul li{
+  background: #525879;
+  display: block;
+  width: 200px;
+  height: 90px;
+  text-align: center;
+}
+#nav li li a:hover{
+  text-decoration: #7f85ab;
+}
+.active{
+  background: #7f85ab;
+}
+
+
+.main{
+	width: 1280px;
+  height: 330px;
+
+}
+
+#showcase {
+  width: 1280px;
+  height: 330px;
+  background: url(/images/book.jpg);
+  background-size: contain;
+  text-align: center;
+}
+
+#showcase h1{
+  padding-top: 90px;
+  font-size: 40px;
+}
+
+#showcase p{
+  font-size: 22px;
+  color: #222;
+}
+
+#newsletter {
+  width:100%;
+  height: 70px;
+  background: #746760;
+}
+
+#information {
+  width:100%;
+  height: 400px;
+  background: white;
+}
+
+.country {
+	text-align: center;
+}
+
+/* this is the grid side */
+.grid h1 {
+	font-size: 40px;
+	text-align: center;
+}
+.grid {
+	background: #3f3453;
+	width: 100%;
+	height: 800px;
+}
+.row1 {
+	width: 100%;
+	height: 220px;
+}
+
+.blue {
+	float: left;
+	width: 40%;
+	height: 220px;
+	background: #41bbf4;
+}
+.pic1:hover, .pic2:hover, .pic3:hover, .pic4:hover, .pic5:hover, .pic6:hover {
+	opacity: 1;
+	transform: scale(1.02);
+	transition: all .5s;
+}
+
+.pic1 {
+	background-image: url(/images/dubai.jpg);
+	width: 100%;
+	height: 220px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	opacity: 0.2;
+}
+.violet {
+	float: left;
+	width: 59.5%;
+	height: 220px;
+	background: black;
+}
+
+.pic2 {
+	background-image: url(/images/ball.jpg);
+	width: 100%;
+	height: 220px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	opacity: 0.2;
+}
+
+.row2 {
+	width: 100%;
+	height: 290px;
+}
+
+
+
+.red {
+	float: left;
+	width: 60%;
+	height: 290px;
+	background: black;
+}
+
+.pic3 {
+	background-image: url(/images/lion.jpg);
+	width: 100%;
+	height: 290px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+}
+.yellow {
+	float: left;
+	width: 39.5%;
+	height: 290px;
+	background: #e8da16;
+}
+
+.pic4 {
+	background-image: url(/images/cat.jpg);
+	width: 100%;
+	height: 290px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	opacity: 0.2;
+}
+
+.row3 {
+	width: 100%;
+	height: 220px;
+}
+
+
+.light-blue {
+	float: left;
+	width: 40%;
+	height: 220px;
+	background: #1490e8;
+}
+
+.pic5 {
+	background-image: url(/images/bike.jpg);
+	width: 100%;
+	height: 220px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	opacity: 0.2;
+}
+
+.green {
+	float: left;
+	width: 59.5%;
+	height: 220px;
+	background: #8ced7b;
+}
+
+.pic6 {
+	background-image: url(/images/dubai.jpg);
+	width: 100%;
+	height: 220px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	opacity: 0.2;
+}
+
+/*send message*/
+
+.message {
+	background: #3f3453;
+	width: 100%;
+	height: 440px;
+	border: 2px;
+}
