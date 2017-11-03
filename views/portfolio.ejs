@@ -3,6 +3,7 @@
   <head>
      <title>Donald's Personal Webpage</title>
      <link  rel="stylesheet" type="text/css" href="css/style.css" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
@@ -13,7 +14,7 @@
                   </div>
 
                <ul>
-                  <li><a href="#about" class="active">About</a></li>
+                  <li><a href="#about">About</a></li>
                   <!-- <li><a href="/blog">BLOG</a></li> -->
                   <li><a href="#projects">Projects</a></li>
                   <li><a href="#contact">Contact</a></li>
@@ -28,14 +29,48 @@
         <div class="main">
 
            <div id="showcase">
-               <h1>Affordable Professional Web design.</h1>
-                   <p>I am here to create what you dream website !
-                     </p>
+
+               <h1>Affordable Professional Web Design.</h1>
+                   <h2>I am here to build your dream website !
+                   </h2>
           </div>
         </div>
 
 
+            <div id= "about">
+              <div class= "title">
+                <h1>ABOUT</h1>
+              </div>
+              <div class = "pic">
+                <h2>DONALD TOFUAH</h2>
+              </div>
+              <div class= "discription">
+                <h1>FULL STACK DEVLOPER</h1>
+                <p>I am Doonald Tofuah,a junior web developer 
+                  with a broad perspective in both creative, front-end programming,
+                  and back-end development. Adept in working both in micro- and multi-departmental
+                  team structures. Skilled in developing fully functional dynamic web pages
+                  from diversely complex designs using javascript framework,
+                  Bootstrap, Ajax, jQuery, XML, HTML5, CSS3, react.js, redux, express
+                  and node.js. Knowledge and practice of SQL, Postgress and DOM Scripting.  
+                  Has verifiable track record of managing complex projects. Expertise
+                  in development, design, analysis, testing and implementation with a
+                  strong Software Development Life Cycle (SDLC) Methodologies.</p><br/>
+
+                  <h1>TECHNICAL PROFICIENCIES</h1><br/>
+
+                  Native Javascript, jQuery, AngularJS, ReactJS, Node JS, Express,
+                  HTML5, CSS3, Bootstrap, SCSS, SASS, APIs, MS Visual Studio 2012,
+                  Visual Basic, SQL, Postgress, WordPress, Github, SQL, Postgress
+                  and Express.
+
+              </div>
+
+            </div>
+
+
           <div id = "projects" class="grid">
+            <h1>PROJECTS</h1>
             <div class= "row1">
               <div class="blue"><div class="pic1"></div></div>
               <div class="violet"><div class="pic2"></div></div>
@@ -45,30 +80,73 @@
               <div class="red"><div class="pic3"></div></div>
               <div class="yellow"><div class="pic4"></div></div>
             </div>
-
-         <div id= "contact">
-          <div class="message">
-            <h1 class = "add">SEND MESSAGE</h1>
-        		<div class = "blogform">
-        			<form>
-        				Message Title:
-        				<input name = "title" type = "text" placeholder="ENTER TITLE OF MESSAGE"/>
-        				<br/>
-
-        				<textarea name = "message" placeholder="Enter Message"></textarea>
-        				<br/>
-        				<button>SEND</button>
-        			</form>
-        		</div>
           </div>
 
-         <div class="footer">
-            <p>Donald Tofuah &copy; <?php echo @date("y"); ?> All Rights Reserved.</p>
-         </div>
+
+          <div id= "contact">
+            <div class= "location">
+              <h1>CONTACT ME</h1>
+              <div class= "Bronx">
+                LOCATION: BRONX, NY
+              </div><br/>
+              <div class= "Number">
+                Cell: 347-3276690
+            </div><br/>
+            <div class="email">
+              Email: dtofuahgmail.com
+            </div>
+          </div>
+
+            <div class= "message">
+              <h1>MESSAGE ME</h1>
+              <div class= "form">
+                <form method="post" action = "/blog">
+          				Title:
+          				<input name = "title" type = "text" placeholder="ENTER TITLE OF POST"/>
+          				<br/>
+          				Body:
+          				<textarea name = "message" placeholder="Enter post"></textarea>
+          				<br/>
+          				<button>SUBMIT</button>
+          			</form>
+              </div>
+
+            </div>
+            </div>
 
 
 
-   </div>
 
-  </body>
+        <div class= "floor">
+        <footer id="footer">
+               <div class="container">
+                 <div class="row">
+                   <div class="8u 12u$(medium)">
+                     <ul class="copyright">
+                       <li>&copy; All rights reserved by Donald Tofuah.</li>
+                       <li>Design: <a href="http://templated.co">by Donald</a></li>
+                       <li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+                     </ul>
+                   </div>
+                   <div class="4u$ 12u$(medium)">
+                     <ul class="icons">
+                       <li>
+                         <a class="icon rounded fa-facebook">F<span class="label">Facebook</span></a>
+                       </li>
+                       <li>
+                         <a class="icon rounded fa-twitter">T<span class="label">Twitter</span></a>
+                       </li>
+                       <li>
+                         <a href="https://github.com/dtofuah" class="icon rounded fa-google-plus">Git<span class="label">Google+</span></a>
+                       </li>
+                       <li>
+                         <a href="https://www.linkedin.com/in/donald-tofuah-50259a122/" class="icon rounded fa-linkedin">L<span class="label">LinkedIn</span></a>
+                       </li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+             </footer>
+           </div>
+      </body>
 </html>
